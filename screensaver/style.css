@@ -1,0 +1,170 @@
+html {
+  background: rgb(254, 226, 206);
+}
+
+@font-face {
+  font-family: "moret-regular";
+  src: url("http://fontsfree.net//wp-content/fonts/basic/sans-serif/FontsFree-Net-moret4.ttf");
+}
+
+div.a {
+  text-align: center;
+  color: rgb(255, 170, 223);
+  font-size: 90px;
+}
+
+div.b {
+  text-align: center;
+  color: rgb(255, 170, 223);
+  line-height: 80%;
+  font-size: 22px;
+}
+
+
+[class^="ico-"], [class*=" ico-"]{
+  font: normal 1em/1 Arial, sans-serif;
+  font-size: 50px;
+  color: rgb(255, 170, 223);
+  display: inline-block;
+}
+
+.ico-times:before{ content: "\2715"; }
+
+
+.VLleft {
+  border-left: 2.5px dotted black;
+  height: 500px;
+  float: left;
+  margin-left: 19px;
+}
+
+.VLright {
+  border-right: 2.9px dotted black;
+  height: 500px;
+  float: right;
+  margin-right: 19px;
+}
+
+div.c {
+  text-align: center;
+  display: flex;
+  margin-left: 44%;
+  margin-right: 44%;
+}
+
+.loading {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 5%;
+  width: 5%;
+}
+
+#myProgress {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: rgb(255, 170, 223);
+}
+
+.button {
+  background-color: rgb(255, 170, 223);
+  border: none;
+  color: rgb(255, 170, 223);
+  padding: 60px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 9px 2px;
+  cursor: pointer;
+}
+
+/* .container {
+  height: 200px;
+  position: relative;
+  border: 3px solid green;
+}
+
+.center {
+  margin:0;
+  position: absolute;
+  top:50%;
+  left:50%;
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
+} */
+
+/* .button3 {
+  margin: 0 auto;
+} */
+
+/* .cookie {
+  height: auto;
+  width: auto;
+  max-width: 100px;
+  max-height: 200px;
+}
+
+.marina {
+  height: auto;
+  width: auto;
+  max-width: 100px;
+  max-height: 200px;
+} */
+
+div#participants {
+	font-size: 0;
+}
+div#participants img {
+	/* width: 50%;
+	height: auto; */
+	opacity: 1;
+	transition: 3s opacity;
+  height: auto;
+  width: auto;
+  /* max-width: 100px; */
+  max-height: 225px;
+}
+div#participants img.visible {
+	opacity: 0;
+}
+
+.fadeButton {
+  opacity:0;
+  transition: opacity 2s;
+  color:white;
+  background-color: rgb(255, 170, 223);
+  display: flex;
+  justify-content: center;
+  border: none;
+  padding: 15px 32px;
+  font-size: 16px;
+  font-family: "moret-regular";
+}
+
+/* .runner {
+  background:rgb(186, 166, 255);
+  width: 1500px;
+  height: 100px;
+  position: fixed;
+  top: 1;
+  bottom:0;
+  left:0;
+  animation: run 6s ease infinite;
+} */
+
+/* @keyframes run {
+  0% {
+    transform: translateX(-500px);
+  }
+  100% {
+    transform:translateX(100vw);
+  }
+} */

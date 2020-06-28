@@ -1,0 +1,89 @@
+  <!doctype html>
+
+  <html>
+    <head>
+      <title>Virtual Waiting Room</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+        body { font-family: "moret-regular", regular  }
+      </style>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+      <i class="ico-times"></i>
+      <br>
+      <br>
+      <div class="VLleft"></div>
+      <div class="VLright"></div>
+      <div id="myProgress">
+        <div id="myBar"></div>
+      </div>
+      <!-- <div class="runner"></div> -->
+      <!-- <img src="loading.gif" class="loading"> -->
+      <br>
+      <div class="a">This is your virtual waiting room.</div>
+      <div class="b">Please let your participants in.</div>
+      <br>
+      <br>
+      <div class="c">
+        <button class='fadeButton' onclick="move()">Begin meeting</button>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div id="participants">
+	       <img src="img/mouse.png">
+         <img src="img/chevre.png">
+         <img src="img/pig.png">
+         <img src="img/marina.png">
+         <img src="img/muffy.png">
+         <img src="img/judy.png">
+         <img src="img/cherry.png">
+         <img src="img/cookie.png">
+
+      </div>
+      <br>
+      <br>
+      <!-- <div class="button"><button onclick="move()">Load meeting</button> -->
+      <!-- <button onclick="move()">Click when all participants have entered</button> -->
+      <script>
+  var b = 0;
+  function move() {
+    if (b == 0) {
+      b = 1;
+      var elem = document.getElementById("myBar");
+      var width = 1;
+      var id = setInterval(frame, 10);
+      function frame() {
+        if (width >= 100) {
+          clearInterval(id);
+          b = 0;
+        } else {
+          width++;
+          elem.style.width = width + "%";
+        }
+      }
+    }
+  }
+
+  var participants = document.querySelectorAll("#participants img"), i = 1;
+  Array.prototype.forEach.call(participants, function(participant) {
+  setTimeout(function(){ participant.classList.add("visible") }, 3000*i)
+  i++;
+  })
+
+  setTimeout(function(){
+      $('.fadeButton').css({'opacity':'1'})
+  }, 24000);
+
+  </script>
+
+      <script src="js/jquery.min.js"></script>
+      <script src="js/jquery.marquee.min.js"></script>
+
+      <script src="js/functions.js"></script>
+    </body>
+  </html>
