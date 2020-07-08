@@ -39,7 +39,7 @@ html {
 .posters{
 
   text-align: align;
-  color:rgb(120, 0, 255);
+  color:rgb(95, 77, 247);
 }
 
 .myDIV{
@@ -80,7 +80,7 @@ html {
   font-family: 'Elsie', cursive;
   font-size: 30px;
   text-align: align;
-  color:rgb(11, 115, 56);
+  color:rgb(68, 147, 83);
 }
 
 .clientwork {
@@ -115,9 +115,9 @@ html {
 
   .circle1 {
     display: block;
-    background: rgb(140, 24, 255);
-    height: 150px;
-    width: 150px;
+    background: rgb(95, 77, 247);
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     position:absolute;
   }
@@ -125,17 +125,17 @@ html {
   .circle2 {
     display: block;
     background: rgb(16, 202, 227);
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     position:absolute;
   }
 
   .circle3 {
     display: block;
-    background: rgb(11, 115, 56);
-    height: 150px;
-    width: 150px;
+    background: rgb(68, 147, 83);
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     position:absolute;
   }
@@ -143,8 +143,8 @@ html {
   .circle4 {
     display: block;
     background: rgb(237, 220, 62);
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     position:absolute;
   }
@@ -152,8 +152,8 @@ html {
   .circle5 {
     display: block;
     background: rgb(255, 133, 33);
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     position:absolute;
   }
@@ -161,8 +161,8 @@ html {
   .circle6 {
     display: block;
     background: rgb(232, 117, 255);
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     position:absolute;
   }
@@ -194,31 +194,31 @@ html {
 
 
   .icon1{
-    top: 130px;
-    left: 400px;
+    top: 150px;
+    left: 420px;
   }
 
   .icon2{
     top: 70px;
-    left: 600px;
+    left: 620px;
   }
 
   .icon3{
     top: 70px;
-    left: 200px;
+    left: 220px;
   }
 
   .icon4{
-    top: 250px;
-    left: 100px;
+    top: 270px;
+    left: 120px;
   }
 
   .icon5{
-    top: 250px;
-    left: 700px;
+    top: 270px;
+    left: 720px;
   }
 
   .icon6{
-    top: 450px;
-    left: 400px;
+    top: 470px;
+    left: 420px;
   }
