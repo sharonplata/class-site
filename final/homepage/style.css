@@ -3,12 +3,11 @@
 }
 
 html {
-  background:rgb(255, 226, 177);
+  background:rgb(255, 224, 187);
 }
 
 
 .button {
-  background: rgb(255, 226, 177);
   cursor: pointer;
   padding: 1rem;
   width: 120px;
