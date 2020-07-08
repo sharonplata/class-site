@@ -1,0 +1,13 @@
+{
+ box-sizing: border-box;
+}
+
+html {
+ background:rgb(255, 124, 238);
+}
+
+div.a{
+ text-align: center;
+ height: auto;
+
+}

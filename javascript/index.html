@@ -1,0 +1,47 @@
+  <!doctype html>
+  <html>
+    <head>
+      <title>Javascript</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+      <div onclick="menuShow()" class="button">Click me...</div>
+
+      <div id="box" class="menu">
+        the box
+      </div>
+
+      <div class='marquee'>Lorem ipsum dolor sit amet, consectetur adipiscing elit END.</div>
+
+      <script>
+      var i = 0;
+      function move() {
+        if (i == 0) {
+          i = 1;
+          var elem = document.getElementById("myBar");
+          var width = 1;
+          var id = setInterval(frame, 10);
+          function frame() {
+            if (width >= 100) {
+              clearInterval(id);
+              i = 0;
+            } else {
+              width++;
+              elem.style.width = width + "%";
+            }
+          }
+        }
+      }
+      </script>
+
+      <script src="js/jquery.min.js"></script>
+      <script src="js/jquery.marquee.min.js"></script>
+
+      <script src="js/functions.js"></script>
+
+    </body>
+
+
+  </html>

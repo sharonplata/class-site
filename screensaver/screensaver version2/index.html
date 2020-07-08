@@ -1,0 +1,34 @@
+  <!doctype html>
+  <html>
+  <head>
+    <title>animation</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div id="hearts">
+      <img src="heart.png" class="flex"></img>
+      <img src="heart.png" class="flex2"></img>
+      <img src="heart.png" class="flex3"></img>
+      <img src="heart.png" class="flex4"></img>
+      <img src="heart.png" class="flex5"></img>
+    </div>
+    <!-- <a onclick="playSound('heartbeat.mp3')">
+       <img src="sparkle.gif">
+    </a>
+    <div id="sound"></div> -->
+
+  </body>
+
+  <script>
+    var hearts = document.querySelectorAll("#hearts img"), i = 1;
+    Array.prototype.forEach.call(hearts, function(heart) {
+    setTimeout(function(){ heart.classList.add("visible") }, 1000*i)
+    i++;
+    })
+
+   //  var playSound = function (heartbeat.mp3) {
+   //    $("#sound").html("<embed src=\"" + heartbeat.mp3 + "\" hidden=\"true\" autostart=\"true\" />");
+   // }
+  </script>
+</html>

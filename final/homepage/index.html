@@ -1,0 +1,62 @@
+<!doctype html>
+
+  <html>
+    <head>
+      <title>Final Project</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css2?family=Elsie:wght@900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+      <div onclick="menuShow()" class="button"><img src="img/menuicon.png" class="menuicon"></div>
+
+      <div id="box" class="menu">
+        <a class="posters myDIV" href="homepage/posters/index.html">posters</a>
+        <a class="publications myDIV" href="homepage/posters/index.html">publications</a>
+        <a class="installations myDIV" href="homepage/posters/index.html">installations</a>
+        <a class="clientwork myDIV" href="homepage/posters/index.html">client work</a>
+        <a class="photo myDIV" href="homepage/posters/index.html">photo</a>
+        <a class="about myDIV" href="homepage/posters/index.html">about</a>
+
+      </div>
+
+      <a class="circle1 icon1" href="homepage/posters/index.html"></a>
+      <a class="circle2 icon2" href="homepage/posters/index.html"></a>
+      <a class="circle3 icon3" href="homepage/posters/index.html"></a>
+      <a class="circle4 icon4" href="homepage/posters/index.html"></a>
+      <a class="circle5 icon5" href="homepage/posters/index.html"></a>
+      <a class="circle6 icon6" href="homepage/posters/index.html"></a>
+
+
+      <script>
+      var i = 0;
+      function move() {
+        if (i == 0) {
+          i = 1;
+          var elem = document.getElementById("myBar");
+          var width = 1;
+          var id = setInterval(frame, 10);
+          function frame() {
+            if (width >= 100) {
+              clearInterval(id);
+              i = 0;
+            } else {
+              width++;
+              elem.style.width = width + "%";
+            }
+          }
+        }
+      }
+      </script>
+
+      <script src="js/jquery.min.js"></script>
+      <script src="js/jquery.marquee.min.js"></script>
+      <script src="js/functions.js"></script>
+
+    </body>
+
+
+
+</html>

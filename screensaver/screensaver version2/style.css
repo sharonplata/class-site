@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  background:black;
+  background-image:url('sparkle.gif');
+  background-size: cover;
+  height: 100vh;
+  padding:0;
+  margin:0;
+}
+
+.flex {
+  height:100vh;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  position: absolute;
+  top: 49.9%;
+  left: 49.9%;
+  animation: kitkat 0.4s infinite alternate;
+  /* delay: 5s; */
+}
+.flex2 {
+  height:100vh;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  position: absolute;
+  top: 49.9%;
+  left: 49.9%;
+  animation: kitkat2 0.4s infinite alternate;
+  /* delay: 4s; */
+}
+.flex3 {
+  height:100vh;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  position: absolute;
+  top: 49.9%;
+  left: 49.9%;
+  animation: kitkat3 0.4s infinite alternate;
+  /* delay: 4s; */
+}
+.flex4 {
+  height:100vh;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  position: absolute;
+  top: 49.9%;
+  left: 49.9%;
+  animation: kitkat4 0.4s infinite alternate;
+  /* delay: 4s; */
+}
+.flex5 {
+  height:100vh;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  position: absolute;
+  top: 49.9%;
+  left: 49.9%;
+  animation: kitkat4 0.4s infinite alternate;
+  /* delay: 4s; */
+}
+
+
+
+/* .circle {
+  background-image: black;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  animation: kitkat 3s;
+} */
+
+
+
+@keyframes  kitkat {
+  0% {
+    transform:scale(1);
+    }
+    100% {
+      transform:scale(10);
+    }
+}
+
+@keyframes  kitkat2 {
+  0% {
+    transform:scale(1);
+    }
+    100% {
+      transform:scale(20);
+    }
+}
+
+@keyframes  kitkat3 {
+  0% {
+    transform:scale(1);
+    }
+    100% {
+      transform:scale(30);
+    }
+}
+
+@keyframes  kitkat4 {
+  0% {
+    transform:scale(1);
+    }
+    100% {
+      transform:scale(40);
+    }
+}
+
+
+@keyframes  kitkat5 {
+  0% {
+    transform:scale(1);
+    }
+    100% {
+      transform:scale(50);
+    }
+}
+
+div#hearts {
+	font-size: 0;
+}
+div#hearts img {
+	/* width: 50%;
+	height: auto; */
+	opacity: 1;
+	transition: 1s opacity;
+  height: auto;
+  width: auto;
+  max-width: 1%;
+  /* max-height: 400px; */
+}
+div#hearts img.visible {
+	opacity: 1;
+}

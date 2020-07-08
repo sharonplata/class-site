@@ -1,0 +1,8 @@
+html {
+  background: rgb(254, 226, 206);
+}
+
+@font-face {
+  font-family: "moret-regular";
+  src: url("http://fontsfree.net//wp-content/fonts/basic/sans-serif/FontsFree-Net-moret4.ttf");
+}

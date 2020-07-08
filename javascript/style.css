@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  background: rgb(251, 240, 168);
+}
+
+body {
+  margin:0;
+}
+
+.button {
+  background: rgb(255, 214, 37);
+  cursor: pointer;
+  padding: 1rem;
+  width: 120px;
+}
+
+.menu {
+  position: fixed;
+  top:0;
+  right:-200px;
+  width:200px;
+  background:rgb(255, 102, 148);
+  height: 100vh;
+  transition: transform .3s ease;
+  z-index:1;
+}
+
+/* .style {
+  width: 100%;
+  padding: 25px;
+  background-color: coral;
+  color: white;
+  font-size: 25px;
+} */
+
+.style {
+  transform: translateX(-200px);
+}
+
+.marquee {
+  /* width: 300px; /* the plugin works for responsive layouts so width is not necessary */
+  overflow: hidden;
+  border:1px solid #ccc;
+  font-size: 2rem;
+}
