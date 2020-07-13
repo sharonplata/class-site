@@ -1,3 +1,52 @@
 html {
 background: rgb(188, 223, 19);
 }
+
+.flexbox {
+  color: rgb(252, 112, 255);
+  font-size: 45px;
+  position: relative;
+  text-align: center;
+}
+
+.animation {
+  color: rgb(255, 230, 8);
+  font-size: 45px;
+  position: relative;
+  text-align: center;
+}
+
+.interaction {
+  color: rgb(138, 255, 149);
+  font-size: 45px;
+  position: relative;
+  text-align: center;
+}
+
+.responsive{
+  color: rgb(40, 229, 255);
+  font-size: 45px;
+  position: relative;
+  text-align: center;
+}
+
+.javascript {
+  color: rgb(171, 97, 255);
+  font-size: 45px;
+  position: relative;
+  text-align: center;
+}
+
+.smile{
+  color: rgb(201, 252, 173);
+  font-size: 45px;
+
+}
+
+.scroll{
+  color:rgb(146, 23, 255);
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+  top:50%;
+}
