@@ -1,0 +1,132 @@
+html {
+background:linear-gradient(0deg, rgba(255,134,239,1) 0%, rgba(162,82,230,1) 50%, rgba(75,15,116,1) 100%);
+}
+
+
+.star1 {
+  color: rgb(254, 240, 121);
+  position: relative;
+  left: 300px;
+}
+
+.star2 {
+  color: rgb(254, 240, 121);
+  position: relative;
+  left: 700px;
+}
+
+.star3 {
+  color: rgb(254, 240, 121);
+  position: relative;
+  left: 600px;
+}
+
+.star4 {
+  color: rgb(254, 240, 121);
+  position: relative;
+  left: 1000px;
+  font-size: 30px;
+}
+
+.star5 {
+  color: rgb(254, 240, 121);
+  position: relative;
+  left: 800px;
+}
+
+.star6 {
+  color: rgb(254, 240, 121);
+  position: relative;
+  left: 1200px;
+}
+
+.star7 {
+  color: rgb(254, 240, 121);
+  position: relative;
+  left: 1100px;
+  font-size: 30px;
+}
+
+.star8 {
+  color: rgb(254, 240, 121);
+  position: relative;
+  left: 500px;
+  font-size: 50px;
+}
+
+.star9 {
+  color: rgb(254, 240, 121);
+  position: relative;
+  left: 800px;
+  font-size: 40px;
+}
+
+.star10 {
+  color: rgb(254, 240, 121);
+  position: relative;
+  left: 200px;
+}
+
+.star11 {
+  color: rgb(254, 240, 121);
+  position: relative;
+  left: 300px;
+}
+
+.star12 {
+  color: rgb(254, 240, 121);
+  position: relative;
+  left: 300px;
+}
+
+.star13 {
+  color: rgb(254, 240, 121);
+  position: relative;
+  left: 700px;
+}
+
+.explosion1{
+  position: relative;
+  left: 400px;
+  font-size: 80px;
+}
+
+.explosion2{
+  position: relative;
+  left: 700px;
+  font-size: 100px;
+}
+
+.bird1{
+  position: relative;
+  left: 300px;
+}
+
+.bird2{
+  position: relative;
+  left: 900px;
+  height: auto;
+  width: 10%;
+}
+
+.bird3{
+  position: relative;
+  left: 1100px;
+  height: auto;
+  width: 15%;
+}
+
+.pond{
+  position: relative;
+  color:rgb(0, 255, 255);
+  font-size: 40px;
+  left: 2000px;
+}
+
+.quote{
+  position: relative;
+  color: rgb(251, 132, 233);
+  font-size: 60px;
+  left: 1000px;
+  text-align: justify;
+}
