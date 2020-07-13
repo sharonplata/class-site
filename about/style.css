@@ -1,0 +1,42 @@
+html {
+background: rgb(254, 249, 222);
+background-image: url(img/rosewall.jpg);
+background-size: 2000px 1505px;
+}
+
+
+.yuzuwashere{
+  font-family: 'Kaushan Script', cursive;
+  color:rgb(254, 243, 216);
+  font-size: 80px;
+  text-align: center;
+  position: relative;
+  top: 4px;
+}
+
+div{
+  font-family: 'Kaushan Script', cursive;
+  color:rgb(237, 44, 119);
+  font-size: 25px;
+  top: 20px;
+  left: 10px;
+  text-align: center;
+}
+
+.rainbowportrait{
+  position: relative;
+  top: -500px;
+  left: 250px;
+  bottom: 80px;
+  height: auto;
+  width: 30%;
+}
+
+.goals{
+  position: relative;
+  top: 20px;
+  left: 400px;
+  bottom: 80px;
+  height: auto;
+  width: 30%;
+}
