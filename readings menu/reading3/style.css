@@ -1,15 +1,73 @@
 html {
-background-image: url(img/bookshelf.png);
+background: radial-gradient(ellipse at center, rgba(255,84,235,1) 0%, rgba(0,0,0,1) 35%, rgba(0,0,0,1) 100%);
 }
 
 .howto{
   color:rgb(233, 92, 236);
-  font-size: 35px;
+  font-family: 'Gruppo', cursive;
+  font-size: 15px;
   text-align: center;
+  position: relative;
+  top: 100px;
 }
 
 .bookgif{
   position: relative;
-  top: 50%;
-  left: 50%;
+  top: 90%;
+  bottom: 50%;
+  left: 46%;
+}
+
+.immunization{
+  font-family: 'Gruppo', cursive;
+  font-size: 15px;
+  color: rgb(233, 92, 236);
+  position: relative;
+  left: 60%;
+}
+
+.quote1{
+  font-family: 'Gruppo', cursive;
+  font-size: 15px;
+  color: rgb(233, 92, 236);
+  position: relative;
+  left: 30%;
+}
+
+.personalwriting{
+  font-family: 'Gruppo', cursive;
+  font-size: 15px;
+  color: rgb(233, 92, 236);
+  position: relative;
+  top:400px;
+  left: 10%;
+}
+
+.read2{
+  font-family: 'Gruppo', cursive;
+  color: rgb(233, 92, 236);
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  top: 200px;
+  left: 20px;
+}
+
+.feeling {
+  font-family: 'Gruppo', cursive;
+  color: rgb(233, 92, 236);
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+
+.portal {
+  position: relative;
+  top: 3%;
+  bottom: 3%;
+  left: 30%;
+  right: 10%;
+  height:auto;
+  width: 80%;
 }
