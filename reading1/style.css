@@ -1,8 +1,25 @@
 body {
-  background: lightpink;
-  font-size: 30px;
-  font-family: monospace;
+  background: radial-gradient(circle, rgba(238,174,202,1) 71%, rgba(148,187,233,1) 100%);
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(224, 0, 114);
 }
+
 img{
   max-width: 100%;
+}
+
+@font-face {
+  font-family: "moret-regular";
+  src: url("http://fontsfree.net//wp-content/fonts/basic/sans-serif/FontsFree-Net-moret4.ttf");
+}
+
+.reading {
+  font-size: 30px;
+}
+
+.document {
+  font-size: 15px;
+  color:rgb(245, 7, 193);
 }
